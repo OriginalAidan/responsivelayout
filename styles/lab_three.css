@@ -1,0 +1,11 @@
+.video-container {
+    display: flex; 
+    width: 100%; /* This ensures the container takes the full width*/
+    aspect-ratio: 16 / 9; /* Directly set the aspect ratio for the container, this is youtubes default */
+  }
+  
+  .video-container iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
